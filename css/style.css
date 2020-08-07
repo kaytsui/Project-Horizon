@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  /* % instad of px allows user to override font size if they want */ }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #777; }
+
+.heading-primary {
+  color: #fff;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.header {
+  height: 100vh;
+  background-image: url(../img/UCLA-Hero.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative; }
