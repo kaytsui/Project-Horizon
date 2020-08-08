@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: $default-font-size;
     line-height: 1.7;
@@ -8,6 +8,11 @@ body {
 
 .heading-primary {
     color: $color-white;
-
+    font-weight: 300;
+    font-size: 6rem;
+    //font-style: normal;
+    padding-bottom: 0;
+    border-bottom: 1px solid rgba($color-white, .8);
+    padding: 0 2rem;
     @include center-one-third;
 }

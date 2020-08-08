@@ -13,7 +13,7 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
@@ -21,6 +21,11 @@ body {
 
 .heading-primary {
   color: #fff;
+  font-weight: 300;
+  font-size: 6rem;
+  padding-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 0 2rem;
   position: absolute;
   top: 33%;
   left: 50%;
@@ -28,7 +33,30 @@ body {
 
 .header {
   height: 100vh;
-  background-image: url(../img/UCLA-Hero.jpg);
+  background-image: url(../img/UCLA-Hero-2.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+
+.navigation__nav {
+  text-align: center; }
+
+.navigation__list {
+  list-style: none;
+  display: inline-block; }
+
+.navigation__item {
+  float: left;
+  display: inline-block;
+  padding: .1rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  display: inline-block; }
+
+.navigation__link:link, .navigation__link:visited {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none; }
+
+li {
+  margin-left: 50px; }

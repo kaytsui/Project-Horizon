@@ -1,0 +1,36 @@
+.navigation {
+
+    &__nav {
+        text-align: center;
+        //border: 1px solid red;
+    }
+
+    &__list {
+        list-style: none;
+        display: inline-block;
+    }
+
+    &__item {
+        float: left;
+        display: inline-block;
+        padding: .1rem 1rem;
+        border: 1px solid rgba($color-white, .4);
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-white;
+            font-weight: 300;
+            text-decoration: none;
+        }
+    }
+
+}
+
+
+li {
+    margin-left: 50px;
+}
