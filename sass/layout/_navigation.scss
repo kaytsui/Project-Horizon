@@ -2,7 +2,6 @@
 
     &__nav {
         text-align: center;
-        //border: 1px solid red;
     }
 
     &__list {
@@ -11,21 +10,33 @@
     }
 
     &__item {
+        display: inline-block;
+        margin-top: 2rem;
         float: left;
-        display: inline-block;
-        padding: .1rem 1rem;
-        border: 1px solid rgba($color-white, .4);
-        border-radius: 5px;
-        display: inline-block;
     }
 
     &__link {
         &:link,
         &:visited {
             color: $color-white;
+            font-size: 1.8rem;
             font-weight: 300;
             text-decoration: none;
+            padding: .3rem 1rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+
         }
+
+        &:hover {
+            border: 1px solid rgba($color-white, .4);
+
+
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+ 
+
     }
 
 }
