@@ -31,6 +31,50 @@ body {
   left: 50%;
   transform: translate(-50%, -50%); }
 
+.u-center-horizontal {
+  text-align: center; }
+
+.school__caption {
+  display: block;
+  text-align: center; }
+
+.school__link:link, .school__link:visited {
+  text-decoration: none;
+  transition: all .4s; }
+
+.school__link:hover {
+  color: #2998ff; }
+
+.school__image {
+  width: 100%; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem)/2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem)/3);
+    border: 1px solid transparent; }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem)/4); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem)/3) + 6rem); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem)/4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem)/4) + 2 * 6rem); }
+
 .header {
   height: 100vh;
   background-image: url(../img/UCLA-Hero-2.jpg);

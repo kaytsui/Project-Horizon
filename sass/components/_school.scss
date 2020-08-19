@@ -1,0 +1,23 @@
+.school {
+    &__caption {
+        display: block;
+        text-align: center;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            transition: all .4s;
+        }
+
+        &:hover {
+            color: $color-tertiary-light;
+        }
+    }
+
+    &__image {
+        width: 100%;
+    }
+    
+}
