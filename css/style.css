@@ -66,6 +66,13 @@ body {
 .school__image {
   width: 100%; }
 
+.footer {
+  background-color: #eee;
+  padding: 5rem 20rem;
+  margin-top: 5rem; }
+  .footer__copyright {
+    text-align: center; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
