@@ -34,6 +34,24 @@ body {
 .u-center-horizontal {
   text-align: center; }
 
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
+
+.btn:link, .btn:visited {
+  color: #fff;
+  background-color: #9B9B9B;
+  text-decoration: none;
+  padding: .5rem 2.5rem;
+  border-radius: 50px;
+  display: inline-block;
+  /* Allows us to have top-bottom padding */
+  margin: auto;
+  font-size: 1.6rem;
+  cursor: pointer; }
+
 .school__caption {
   display: block;
   text-align: center; }
@@ -110,3 +128,8 @@ body {
 
 li {
   margin-left: 50px; }
+
+.section-about {
+  color: #fff;
+  background-color: #242424;
+  padding: 5rem 15rem; }
