@@ -1,0 +1,23 @@
+.profile {
+    &-1 {
+        float: left;
+        width: 45.5%;
+    }
+
+    &-2 {
+        float: right;
+        width: 45.5%;
+    }
+
+    &__title {
+        text-align: center;
+    }
+}
+
+.two-thirds {
+    position: relative;
+    max-width: 65%;
+    border: 1px solid blue;
+    margin: auto;
+    @include clearfix;
+}
