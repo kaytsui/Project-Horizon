@@ -22,6 +22,7 @@
 
     .col-1-of-3 {
         width: calc((100% - 2 * #{$gutter-horizontal})/3);
+        border-top: 1px solid transparent;      // Need so spacing for Schools works
     }
 
     .col-1-of-4 {
