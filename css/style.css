@@ -66,6 +66,12 @@ body {
 .school__image {
   width: 100%; }
 
+.banner {
+  color: red;
+  height: 50vh;
+  background-color: rgba(155, 155, 155, 0.6);
+  border: 1px solid red; }
+
 .footer {
   background-color: #eee;
   padding: 5rem 20rem;
@@ -106,6 +112,12 @@ body {
   background-size: cover;
   background-position: top;
   position: relative; }
+  .header-nav {
+    background-image: url(../img/UCLA-Hero-4.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 12vh; }
 
 .navigation__nav {
   text-align: center; }
