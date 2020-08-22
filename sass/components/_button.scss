@@ -1,8 +1,7 @@
 .btn {
     &:link,
     &:visited {
-        color: $color-white;
-        background-color: $color-gray-dark-2;
+        color: $color-black;
         text-decoration: none;
         padding: .5rem 2.5rem;
         border-radius: 50px;
@@ -13,5 +12,9 @@
         // change for the <button> element 
         //border: 1px solid red;
         cursor: pointer;
+    }
+
+    &-yellow {
+        background-color: $color-yellow-light-1;;
     }
 }
