@@ -81,10 +81,12 @@ body {
   border: 1px solid red; }
 
 .footer {
-  background-color: #eee;
+  background-image: url(../../img/UCLA-Hero.jpg);
+  background-size: cover;
   padding: 5rem 20rem;
   margin-top: 5rem; }
   .footer__copyright {
+    color: #F9F450;
     text-align: center; }
 
 .row {
@@ -127,34 +129,106 @@ body {
     position: relative;
     height: 60vh; }
 
-.navigation__nav {
-  text-align: center; }
+/*
+.navigation {
 
-.navigation__list {
-  list-style: none;
-  display: inline-block; }
+    &__nav {
+        text-align: center;
+    }
 
-.navigation__item {
-  display: inline-block;
-  margin-top: 2rem;
-  float: left; }
+    &__list {
+        list-style: none;
+        display: inline-block;
+    }
 
-.navigation__link:link, .navigation__link:visited {
-  color: #fff;
-  font-size: 1.8rem;
-  font-weight: 300;
-  text-decoration: none;
-  padding: .3rem 1rem;
-  border: 1px solid transparent;
-  border-radius: 7px; }
+    &__item {
+        display: inline-block;
+        margin-top: 2rem;
+        float: left;
+    }
 
-.navigation__link:hover {
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out; }
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-white;
+            font-size: 1.8rem;
+            font-weight: 300;
+            text-decoration: none;
+            padding: .3rem 1rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+
+        }
+
+        &:hover {
+            border: 1px solid rgba($color-white, .4);
+
+
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+ 
+
+    }
+
+}
+
 
 li {
-  margin-left: 50px; }
+    margin-left: 50px;
+}
+*/
+.navigation__nav {
+  background-color: rgba(0, 0, 0, 0.15); }
+  .navigation__nav:after {
+    content: '';
+    clear: both;
+    display: block; }
+  .navigation__nav div div > ul > li {
+    float: left;
+    position: relative; }
+  .navigation__nav div div ul {
+    list-style: none;
+    margin: 0; }
+    .navigation__nav div div ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 300;
+      text-decoration: none;
+      padding: 1.5rem 2rem;
+      display: block; }
+      .navigation__nav div div ul li a:hover {
+        color: #F9F450; }
+    .navigation__nav div div ul li:hover > ul {
+      display: block; }
+    .navigation__nav div div ul ul {
+      position: absolute;
+      padding: 0;
+      width: 35rem;
+      display: none;
+      top: 100%;
+      left: 0;
+      z-index: 5; }
+      .navigation__nav div div ul ul li:hover a {
+        background-color: #50828f;
+        color: #F9F450; }
+      .navigation__nav div div ul ul a {
+        text-align: left;
+        padding: .2rem 1.5rem;
+        display: block;
+        background-color: #025e87;
+        border-radius: 10px; }
+
+.main-container {
+  float: left;
+  position: relative;
+  left: 50%; }
+
+.fixer-container {
+  float: left;
+  position: relative;
+  left: -45%; }
 
 .profile-1 {
   float: left;
