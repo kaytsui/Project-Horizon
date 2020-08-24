@@ -50,8 +50,8 @@ li {
 
 
 .navigation__nav {
-    background-color: rgba($color-black, .15);
-    
+    //background-color: rgba($color-black, .15);
+    background-color: rgba(#023A6E, 1);
     //border: 1px solid red;
 
     &:after {
@@ -115,18 +115,22 @@ li {
         
         
                     li:hover a {    // when hovering over inner directory links
-                        //background-color: rgba($color-black, .25);
+                        //background-color: rgba($color-black, .25);    // Used this to play around and find the yellow highlight color
                         background-color: rgba(#50828f, 1);
                         color: $color-yellow-light-1;
                     }
         
                     a {     // inner directory links
                         text-align: left;
+                        font-size: 1.3rem;
+
                         padding: .2rem 1.5rem;
                         display: block;
-                        background-color: rgba(#025e87, 1);
+                        //background-color: rgba(#025e87, 1);       // Old background color that's lighter and yellowish
+                        background-color: rgba(#023A6E, 1);       // New color that matches the nav color
+
                         //border: 1px solid red;
-                        border-radius: 10px;
+                        //border-radius: 10px;
                         //line-height: 3rem;
                     }
                 }

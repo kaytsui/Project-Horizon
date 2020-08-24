@@ -179,7 +179,7 @@ li {
 }
 */
 .navigation__nav {
-  background-color: rgba(0, 0, 0, 0.15); }
+  background-color: #023a6e; }
   .navigation__nav:after {
     content: '';
     clear: both;
@@ -215,10 +215,10 @@ li {
         color: #F9F450; }
       .navigation__nav div div ul ul a {
         text-align: left;
+        font-size: 1.3rem;
         padding: .2rem 1.5rem;
         display: block;
-        background-color: #025e87;
-        border-radius: 10px; }
+        background-color: #023a6e; }
 
 .main-container {
   float: left;
