@@ -41,3 +41,14 @@
         width: calc(3 * ((100% - 3 * #{$gutter-horizontal})/4) + 2 * #{$gutter-horizontal});
     }
 }
+
+.grid-3-by-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 6rem;
+}
+
+.grid-1-of-3 {
+    grid-column: 2 / 3;
+}

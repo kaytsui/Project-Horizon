@@ -46,6 +46,10 @@ body {
 .u-margin-top-large {
   margin-top: 8rem !important; }
 
+.u-border-horizontal-medium {
+  max-width: 100rem;
+  margin: auto; }
+
 .btn:link, .btn:visited {
   color: #000;
   text-decoration: none;
@@ -59,6 +63,15 @@ body {
 
 .btn-yellow {
   background-color: #F9F450; }
+
+.gallery {
+  border: 1px solid #ffbb00; }
+  .gallery img {
+    padding: .5rem; }
+
+.inner:link, .inner:visited {
+  text-decoration: none;
+  color: yellow; }
 
 .school__caption {
   display: block;
@@ -115,6 +128,15 @@ body {
     width: calc(2 * ((100% - 3 * 6rem)/4) + 6rem); }
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem)/4) + 2 * 6rem); }
+
+.grid-3-by-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 6rem; }
+
+.grid-1-of-3 {
+  grid-column: 2 / 3; }
 
 .header {
   height: 100vh;
