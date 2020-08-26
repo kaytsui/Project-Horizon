@@ -1,9 +1,11 @@
 .footer {
-    background-color: $color-gray-light-2;
+    background-color: rgba(#023A6E, 1);
+    background-size: cover;
     padding: 5rem 20rem;
     margin-top: 5rem;
 
     &__copyright {
+        color: $color-yellow-light-1;
         text-align: center;
     }
 }

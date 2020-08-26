@@ -6,21 +6,59 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+        <script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+        </script>
         
         <title>About</title>
     </head>
     <body>
         <header class="header-nav">
             <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="index.html" class="navigation__link navigation__draw navigation__meet">Home</a></li>
-                    <li class="navigation__item"><a href="about.html" class="navigation__link navigation__draw navigation__meet">About</a></li>
-                    <li class="navigation__item"><a href="directory.html" class="navigation__link navigation__draw navigation__meet">Directory</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link navigation__draw navigation__meet">Photo Gallery</a></li>
-                    <li class="navigation__item"><a href="contact.html" class="navigation__link navigation__draw navigation__meet">Contact</a></li>
-                </ul>
+                <div class="main-container">
+                    <div class="fixer-container">
+                        <ul class="navigation__list">
+                            <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+                            <li class="navigation__item"><a href="about.html" class="navigation__link">About</a></li>
+                            <li class="navigation__item"><a href="#" class="navigation__link">Directory</a>
+                                <ul>
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">College of Letters and Science</a></li>
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">School of the Arts and Architecture</a></li>                        
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">Henry Samueli School of Engineering and Applied Science</a></li>   
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">Herb Alpert School of Music</a></li>                    
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">School of Theater, Film and Television</a></li>                  
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">School of Nursing</a></li>  
+                                    <li class="navigation__item"><a href="about.html" class="navigation__link">Luskin School of Public Affairs</a></li>     
+                                </ul>               
+                            </li>
+                            <li class="navigation__item"><a href="#" class="navigation__link">Photo Gallery</a></li>
+                            <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
+        <section class="section-photo-gallery">
+            <h1 class="heading-primary">Photo Gallery</h1>
+
+            <div class="gallery">
+
+                <!-- Trial photo gallery for fun. Changed margin-left:-1rem and margin-right:-1rem for the previous and next gifs by changing them in lightbox.min.css
+                    I can create links within the caption by using single quotes around the href like so: title="<a href='prof.html'>Professor Name</a> - Botticelli's Primaversa"
+                    I can modify link color by changing the lightbox css field .lb-data .lb-caption a </a>     
+                -->
+                <a href="img/Teo-Ruiz.jpg" data-lightbox="mygallery" title="<a class='inner' href='index.html'>Teo</a> Profile Picture"</a><img class="min" src="img/rsz_teo-ruiz.jpg"></a>
+                <a href="img/Karen-Givvin.jpg" data-lightbox="mygallery"><img src="img/rsz_karen-givvin.jpg" alt=""></a>
+                <a href="img/Teo-Ruiz.jpg"></a><img src="img/rsz_teo-ruiz.jpg" alt=""></a>
+                <a href="img/Karen-Givvin.jpg"></a><img src="img/Karen-Givvin.jpg" alt=""></a>
+                <a href="img/Teo-Ruiz.jpg"><img src="img/Teo-Ruiz.jpg" alt=""></a>
+
+                <a href="img/photo-1.jpg" data-lightbox="mygallery"><img class="min" src="img/photo-1-small.jpg"></a>
+                <a href="img/photo-2.jpg" data-lightbox="mygallery"><img class="min" src="img/photo-2-small.jpg"></a>
+                <a href="img/photo-3.jpg" data-lightbox="mygallery"><img class="min" src="img/photo-3-small.jpg"></a>
+            </div>
+        </section>
+
         <section class="banner">
             
         </section>

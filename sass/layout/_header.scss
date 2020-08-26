@@ -1,20 +1,39 @@
 .header { 
-    height: 100vh;
-    background-image: url(../img/UCLA-Hero-2.jpg);
 
-    background-size: cover;
-    background-position: top;
-    position: relative;
+    &-landing {
+        height: 100vh;
+        background-image: url(../img/UCLA-Hero-2.jpg);
 
-
-    //margin-top: -15vh;
-
-    &-nav {
-        background-image: url(../img/UCLA-Hero-cut-small.jpg);
         background-size: cover;
         background-position: top;
         position: relative;
-        height: 60vh;
     }
 
+    &-not-landing {
+        height: 40rem;
+        background-image: url(../img/Rectangle-204.svg);
+
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+
+    &__banner {
+        background-image: url(../../img/Rectangle-204.svg);
+        height: 60vh;
+        color: $color-white;
+    }
+
+    &__wrapper {
+        transform: translateY(10vh);
+    }
+
+    &__description {
+        font-size: 3rem;
+        max-width: 50rem;
+        //border: 1px solid yellow;
+        border-top: 1px solid $color-white;
+    }
+
+    //margin-top: -15vh;
 }

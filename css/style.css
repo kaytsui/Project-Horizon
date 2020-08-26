@@ -19,7 +19,7 @@ body {
   line-height: 1.7;
   color: #777; }
 
-.heading-primary {
+.heading-landing-primary {
   color: #fff;
   font-weight: 300;
   font-size: 7rem;
@@ -30,6 +30,17 @@ body {
   top: 33%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.heading-reg-primary {
+  /*
+
+    border-bottom: 1px solid rgba($color-white, .8);
+    padding: 0 2rem;
+    @include center-one-third;
+    text-transform: uppercase;*/
+  font-weight: 400;
+  font-size: 7rem;
+  display: inline-block; }
 
 .u-center-horizontal {
   text-align: center; }
@@ -94,7 +105,7 @@ body {
   border: 1px solid red; }
 
 .footer {
-  background-image: url(../../img/UCLA-Hero.jpg);
+  background-color: #023a6e;
   background-size: cover;
   padding: 5rem 20rem;
   margin-top: 5rem; }
@@ -138,18 +149,32 @@ body {
 .grid-1-of-3 {
   grid-column: 2 / 3; }
 
-.header {
+.header-landing {
   height: 100vh;
   background-image: url(../img/UCLA-Hero-2.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
-  .header-nav {
-    background-image: url(../img/UCLA-Hero-cut-small.jpg);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    height: 60vh; }
+
+.header-not-landing {
+  height: 40rem;
+  background-image: url(../img/Rectangle-204.svg);
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+
+.header__banner {
+  background-image: url(../../img/Rectangle-204.svg);
+  height: 60vh;
+  color: #fff; }
+
+.header__wrapper {
+  transform: translateY(10vh); }
+
+.header__description {
+  font-size: 3rem;
+  max-width: 50rem;
+  border-top: 1px solid #fff; }
 
 /*
 .navigation {

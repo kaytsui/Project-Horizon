@@ -1,0 +1,16 @@
+.gallery {
+    //margin: 1rem 5rem;
+    border: 1px solid rgb(255, 187, 0);
+
+    img {
+        padding: .5rem;
+    }
+}
+
+.inner {
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: yellow;      // This won't change the text color but I can do it by modifying the lightbox css field .lb-data .lb-caption a 
+    }
+}
