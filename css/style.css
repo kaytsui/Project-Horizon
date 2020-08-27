@@ -133,6 +133,9 @@ body {
   background-color: rgba(155, 155, 155, 0.6);
   border: 1px solid red; }
 
+.content {
+  background-color: #E5E5E5; }
+
 .footer {
   background-color: #023a6e;
   background-size: cover; }
@@ -356,7 +359,8 @@ li {
 .section-mission {
   color: #fff;
   background-color: #023A6E;
-  padding: 5rem 15rem; }
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
 
 .section-schools {
   color: #023A6E;
