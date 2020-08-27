@@ -11,20 +11,34 @@
 
     &__banner {
         background-image: url(../../logo/banner-gradient.svg);
-        height: 60vh;
+        background-size: cover;
+        //height: 60vh;
         color: $color-white;
     }
 
     &__wrapper {
-        transform: translateY(10vh);
+        //transform: translateY(10vh);
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 7rem;
+        display: inline-block;
+        text-transform: uppercase;
     }
 
     &__description {
+        font-weight: 300;
         font-size: 3rem;
         max-width: 50rem;
         //border: 1px solid yellow;
         border-top: 1px solid $color-white;
+        margin-top: -1rem;
+        margin-bottom: 8rem;
+
     }
 
+    &__logo {
+    }
     //margin-top: -15vh;
 }

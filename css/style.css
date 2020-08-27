@@ -73,6 +73,14 @@ body {
   padding-left: 2.5rem;
   padding-right: 2.5rem; }
 
+.u-margin-horizontal-15 {
+  margin-left: 15rem;
+  margin-right: 15rem; }
+
+.u-margin-horizontal-5 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem; }
+
 .btn:link, .btn:visited {
   color: #000;
   text-decoration: none;
@@ -182,6 +190,16 @@ body {
 .grid-1-of-3 {
   grid-column: 2 / 3; }
 
+.grid-5-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr fit-content(25rem); }
+
+.grid-left-3-of-5 {
+  grid-column: 1 / 4; }
+
+.grid-right-2-of-5 {
+  grid-column: 4 / 6; }
+
 .header-landing {
   height: 100vh;
   background-image: url(../img/UCLA-Hero-final.jpg);
@@ -191,16 +209,22 @@ body {
 
 .header__banner {
   background-image: url(../../logo/banner-gradient.svg);
-  height: 60vh;
+  background-size: cover;
   color: #fff; }
 
-.header__wrapper {
-  transform: translateY(10vh); }
+.header__heading {
+  font-weight: 400;
+  font-size: 7rem;
+  display: inline-block;
+  text-transform: uppercase; }
 
 .header__description {
+  font-weight: 300;
   font-size: 3rem;
   max-width: 50rem;
-  border-top: 1px solid #fff; }
+  border-top: 1px solid #fff;
+  margin-top: -1rem;
+  margin-bottom: 8rem; }
 
 /*
 .navigation {
