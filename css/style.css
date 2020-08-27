@@ -141,7 +141,10 @@ body {
     text-align: center; }
     .footer__menu--item {
       display: inline-block;
-      padding: 0 .5rem; }
+      padding: 0 .5rem;
+      transition: all .3s; }
+      .footer__menu--item:hover {
+        transform: translateY(-0.5rem); }
 
 .row {
   max-width: 114rem;
