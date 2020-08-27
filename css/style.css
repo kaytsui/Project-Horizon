@@ -42,6 +42,10 @@ body {
   font-size: 7rem;
   display: inline-block; }
 
+.heading-secondary {
+  font-family: 'Hind', sans-serif;
+  font-size: 3.5rem; }
+
 .u-center-horizontal {
   text-align: center; }
 
@@ -60,6 +64,14 @@ body {
 .u-border-horizontal-medium {
   max-width: 100rem;
   margin: auto; }
+
+.u-border-horizontal-15 {
+  margin-left: 15rem;
+  margin-right: 15rem; }
+
+.u-border-horizontal-5 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem; }
 
 .btn:link, .btn:visited {
   color: #000;
@@ -90,13 +102,22 @@ body {
 
 .school__link:link, .school__link:visited {
   text-decoration: none;
-  transition: all .4s; }
+  transition: all .4s;
+  color: #023A6E;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: auto;
+  display: block; }
 
 .school__link:hover {
   color: #2998ff; }
 
 .school__image {
-  width: 100%; }
+  width: 100%;
+  transition: all .3s; }
+  .school__image:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.4); }
 
 .banner {
   color: red;
@@ -151,7 +172,7 @@ body {
 
 .header-landing {
   height: 100vh;
-  background-image: url(../img/UCLA-Hero-2.jpg);
+  background-image: url(../img/UCLA-Hero-final.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -275,7 +296,7 @@ li {
 .fixer-container {
   float: left;
   position: relative;
-  left: -45%; }
+  left: -44%; }
 
 .profile-1 {
   float: left;
@@ -298,7 +319,18 @@ li {
     display: table;
     clear: both; }
 
+.title-logo {
+  text-align: center;
+  margin-top: 5vh;
+  transform: scale(0.95); }
+
 .section-about {
   color: #fff;
   background-color: #023A6E;
   padding: 5rem 15rem; }
+
+.section-schools {
+  color: #023A6E;
+  background-color: #E5E5E5;
+  padding-top: 1px;
+  padding-bottom: 10rem; }

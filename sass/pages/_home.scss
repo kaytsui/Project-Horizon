@@ -1,5 +1,18 @@
+.title-logo {
+    text-align: center;
+    margin-top: 5vh;
+    transform: scale(.95);
+}
+
 .section-about {
     color: $color-white;
     background-color: $color-blue-dark-1;
     padding: 5rem 15rem;
+}
+
+.section-schools {
+    color: $color-blue-dark-1;
+    background-color: $color-gray-light-2;
+    padding-top: 1px;
+    padding-bottom: 10rem;
 }
