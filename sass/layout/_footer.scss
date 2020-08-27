@@ -1,11 +1,29 @@
 .footer {
     background-color: rgba(#023A6E, 1);
     background-size: cover;
-    padding: 5rem 20rem;
-    margin-top: 5rem;
 
     &__copyright {
-        color: $color-yellow-light-1;
+        color: $color-white;
         text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
     }
+
+    &__icons {
+        padding-top: 3rem;
+    }
+
+    &__menu {
+        list-style: none;
+        margin-bottom: 0;
+        text-align: center;
+        //@include clearfix;
+
+        &--item {
+            display: inline-block;
+            padding: 0 .5rem;
+        }
+    }
+
+
 }
