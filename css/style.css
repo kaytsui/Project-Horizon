@@ -65,13 +65,13 @@ body {
   max-width: 100rem;
   margin: auto; }
 
-.u-border-horizontal-15 {
-  margin-left: 15rem;
-  margin-right: 15rem; }
+.u-padding-horizontal-15 {
+  padding-left: 15rem;
+  padding-right: 15rem; }
 
-.u-border-horizontal-5 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem; }
+.u-padding-horizontal-5 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
 
 .btn:link, .btn:visited {
   color: #000;
@@ -189,15 +189,8 @@ body {
   background-position: top;
   position: relative; }
 
-.header-not-landing {
-  height: 40rem;
-  background-image: url(../img/Rectangle-204.svg);
-  background-size: cover;
-  background-position: top;
-  position: relative; }
-
 .header__banner {
-  background-image: url(../../img/Rectangle-204.svg);
+  background-image: url(../../logo/banner-gradient.svg);
   height: 60vh;
   color: #fff; }
 
@@ -336,7 +329,7 @@ li {
   margin-top: 5vh;
   transform: scale(0.95); }
 
-.section-about {
+.section-mission {
   color: #fff;
   background-color: #023A6E;
   padding: 5rem 15rem; }

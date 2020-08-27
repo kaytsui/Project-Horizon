@@ -9,17 +9,8 @@
         position: relative;
     }
 
-    &-not-landing {
-        height: 40rem;
-        background-image: url(../img/Rectangle-204.svg);
-
-        background-size: cover;
-        background-position: top;
-        position: relative;
-    }
-
     &__banner {
-        background-image: url(../../img/Rectangle-204.svg);
+        background-image: url(../../logo/banner-gradient.svg);
         height: 60vh;
         color: $color-white;
     }
