@@ -52,3 +52,19 @@
 .grid-1-of-3 {
     grid-column: 2 / 3;
 }
+
+.grid-5-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr fit-content(25rem);      // Set max grid column width to 250px
+    //background-color: green;
+}
+
+.grid-left-3-of-5 {
+    grid-column: 1 / 4;
+    //align-items: center;
+
+}
+
+.grid-right-2-of-5 {
+    grid-column: 4 / 6;
+}
