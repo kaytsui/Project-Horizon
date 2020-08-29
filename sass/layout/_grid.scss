@@ -57,10 +57,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr fit-content(25rem);      // Set max grid column width to 250px
     //background-color: green;
+    align-content: center;
 }
 
 .grid-left-3-of-5 {
     grid-column: 1 / 4;
+    position: relative;
     //align-items: center;
 
 }

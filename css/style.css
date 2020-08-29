@@ -195,10 +195,12 @@ body {
 
 .grid-5-col {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr fit-content(25rem); }
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr fit-content(25rem);
+  align-content: center; }
 
 .grid-left-3-of-5 {
-  grid-column: 1 / 4; }
+  grid-column: 1 / 4;
+  position: relative; }
 
 .grid-right-2-of-5 {
   grid-column: 4 / 6; }
@@ -213,21 +215,51 @@ body {
 .header__banner {
   background-image: url(../../logo/banner-gradient.svg);
   background-size: cover;
+  height: 30rem;
   color: #fff; }
+
+.header__wrapper {
+  position: absolute;
+  top: 25%; }
+  .header__wrapper--nursing {
+    position: absolute;
+    top: 30%; }
+  .header__wrapper--engineering {
+    position: absolute;
+    top: 22%; }
 
 .header__heading {
   font-weight: 400;
-  font-size: 7rem;
+  font-size: 5rem;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 5rem; }
 
 .header__description {
   font-weight: 300;
   font-size: 3rem;
   max-width: 50rem;
   border-top: 1px solid #fff;
-  margin-top: -1rem;
-  margin-bottom: 8rem; }
+  margin-top: .5rem;
+  padding-top: .5rem;
+  line-height: 4rem; }
+
+.header__logo {
+  margin-top: 3rem; }
+  .header__logo--art-arch {
+    margin-top: 3rem;
+    transform: scale(0.9); }
+  .header__logo--music {
+    margin-top: 3rem;
+    transform: scale(0.9); }
+  .header__logo--nursing {
+    margin-top: 4rem;
+    transform: scale(0.9); }
+  .header__logo--pub-aff {
+    margin-top: 4rem; }
+  .header__logo--engineering {
+    margin-top: -2.5rem;
+    transform: scale(1.05); }
 
 /*
 .navigation {
