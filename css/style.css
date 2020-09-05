@@ -95,6 +95,29 @@ body {
 .btn-yellow {
   background-color: #F9F450; }
 
+.faculty__caption {
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 1.8rem; }
+
+.faculty__link:link, .faculty__link:visited {
+  text-decoration: none;
+  transition: all .4s;
+  color: #023A6E;
+  font-size: 2rem;
+  font-size: 2.5rem;
+  margin: auto;
+  display: block; }
+
+.faculty__link:hover {
+  color: #2998ff; }
+
+.faculty__image {
+  width: 100%;
+  border-radius: 5px;
+  transition: all .3s; }
+
 .gallery {
   border: 1px solid #ffbb00; }
   .gallery img {
@@ -188,10 +211,25 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5rem;
-  row-gap: 6rem; }
+  row-gap: 6rem;
+  position: relative; }
+
+.grid-6-in-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10%;
+  row-gap: 6rem;
+  position: relative;
+  margin-top: 6rem; }
 
 .grid-1-of-3 {
   grid-column: 2 / 3; }
+
+.grid-2-of-3-left {
+  grid-column: 2 / 4; }
+
+.grid-2-of-3-right {
+  grid-column: 4 / 6; }
 
 .grid-5-col {
   display: grid;
@@ -204,6 +242,9 @@ body {
 
 .grid-right-2-of-5 {
   grid-column: 4 / 6; }
+
+.fix-height {
+  width: 26rem; }
 
 .header-landing {
   height: 100vh;
