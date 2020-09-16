@@ -46,6 +46,11 @@ body {
   font-family: 'Hind', sans-serif;
   font-size: 3.5rem; }
 
+.heading-tertiary {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.4rem;
+  color: #023A6E; }
+
 .u-center-horizontal {
   text-align: center; }
 
@@ -88,7 +93,6 @@ body {
   border-radius: 50px;
   display: inline-block;
   /* Allows us to have top-bottom padding */
-  margin: auto;
   font-size: 1.6rem;
   cursor: pointer; }
 
@@ -117,6 +121,33 @@ body {
   width: 100%;
   border-radius: 5px;
   transition: all .3s; }
+
+.faculty__logo {
+  border: 1px solid #fff; }
+
+.faculty__date {
+  text-align: right;
+  font-size: 2.4rem; }
+
+.faculty__answer {
+  color: #000;
+  font-size: 2.4rem;
+  margin: 0 2.5rem; }
+
+.faculty__Q3--1::after, .faculty__Q3--2::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.faculty__Q3--left {
+  float: left;
+  margin-left: 2.5rem;
+  margin-right: 5rem; }
+
+.faculty__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(-15%); }
 
 .gallery {
   border: 1px solid #ffbb00; }
@@ -268,6 +299,9 @@ body {
   .header__wrapper--engineering {
     position: absolute;
     top: 22%; }
+  .header__wrapper--faculty {
+    position: absolute;
+    top: 33%; }
 
 .header__heading {
   font-weight: 400;
@@ -301,6 +335,10 @@ body {
   .header__logo--engineering {
     margin-top: -2.5rem;
     transform: scale(1.05); }
+  .header__logo--faculty {
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    transform: scale(0.8); }
 
 /*
 .navigation {
