@@ -63,6 +63,14 @@
             margin-left: 2.5rem;
             margin-right: 5rem;
         }
+
+        &--right {
+            float: right;
+        }
+
+        &--center {
+            text-align: center;
+        }
     }
 
     &__wrapper {

@@ -95,3 +95,11 @@
     //max-height: 30rem;
     width: 26rem;
 }
+
+.grid-two-thirds-left {
+    grid-column: 1 / 3;
+}
+
+.grid-one-third-right {
+    grid-column: 3 / 4;
+}
